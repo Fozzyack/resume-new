@@ -11,14 +11,6 @@ export default function Home() {
 				<div className="w-full relative z-10"></div>
 				<div className="px-16 z-10">
 					<AboutMe />
-                    <div className="flex flex-col items-center justify-center mt-4">
-                        <h3 className="text-4xl">
-                            Projects
-                        </h3>
-                        <p className='italic'>
-                            ( or lack thereof )
-                        </p>
-                    </div>
                     <WebProjects />
 				</div>
 			</div>

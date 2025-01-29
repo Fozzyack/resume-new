@@ -24,6 +24,12 @@ const PROJECTS = [
 const WebProjects = () => {
 	return (
 		<div className="min-h-screen flex flex-col items-center justify-center my-8">
+                        <h3 className="text-4xl">
+                            Projects
+                        </h3>
+                        <p className='italic'>
+                            ( or lack thereof )
+                        </p>
 			<h3 className="text-3xl">Web Projects</h3>
 			<div className="flex flex-col md:flex-row mt-4">
 				{PROJECTS.map((project, index) => (

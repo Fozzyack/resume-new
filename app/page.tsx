@@ -1,7 +1,6 @@
 import AboutMe from "@/components/AboutMe";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import OtherProjects from "@/components/OtherProjects";
 import WebProjects from "@/components/WebProjects";
 
 export default function Home() {
@@ -21,7 +20,6 @@ export default function Home() {
                         </p>
                     </div>
                     <WebProjects />
-                    <OtherProjects />
 				</div>
 			</div>
 			<div className="absolute w-screen z-20">

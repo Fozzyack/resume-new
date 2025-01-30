@@ -11,13 +11,13 @@ const PROJECTS = [
 		name: "HiguVT",
 		desc: "A website made for a VTuber showcasing their personality and directing the audience to other sites",
 		tech: "React, Typescript, TailwindCSS",
-		link: "https://fin-track-xi.vercel.app/",
+		link: "https://higuvt.starlightvoyager.dev",
 	},
 	{
 		name: "Jasmine Clarke",
 		desc: "A website made for a singer giving the viewer a preview of their works",
 		tech: "React, Typescript, TailwindCSS",
-		link: "https://fin-track-xi.vercel.app/",
+		link: "https://jasmine.starlightvoyager.dev",
 	},
 ];
 

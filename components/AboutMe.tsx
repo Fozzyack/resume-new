@@ -100,7 +100,7 @@ const AboutMe = () => {
 									) : null}
 								</div>
 							</div>
-							<p> {section.description} </p>
+							<p className="text-center md:text-start"> {section.description} </p>
 						</div>
 					</div>
 				))}

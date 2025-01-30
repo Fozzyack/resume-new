@@ -7,7 +7,9 @@ const CERTIFICATES = [
 		name: "Neural Networks and Deep Learning",
 		summary:
 			"A small course offered by Stanford that teaches how build, train, and apply fully connected deep neural networks. Implementing efficient (vectorized) neural networks. Identifying key parameters in a neural network’s architecture and applying deep learning to your own applications.",
+        skills: "Python, Pytorch, Neural Networks, Deep Learning",
 		link: "https://coursera.org/share/a460b75a07738c6c810aec096ad7e485",
+
 		img: NN_certificate,
 	},
 ];
@@ -37,6 +39,7 @@ const Certificates = () => {
 							Deep Neural Networks
 						</h4>
 						<p>{certificate.summary}</p>
+                        <p className="font-bold">{certificate.skills}</p>
 						<a
 							href={certificate.link}
 							className="p-2 rounded-xl mt-3 border-2 border-white hover:text-black hover:-translate-y-2 hover:bg-white transition duration-500 group-hover:border-black"

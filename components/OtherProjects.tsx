@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const PROJECTS = [
 	{
 		name: "Python Project Machine Learning",

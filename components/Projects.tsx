@@ -21,9 +21,9 @@ const PROJECTS = [
 	},
 ];
 
-const WebProjects = () => {
+const Projects = () => {
 	return (
-		<div className="min-h-screen flex flex-col items-center justify-center my-8">
+		<div className="flex flex-col items-center justify-center my-8">
                         <h3 className="text-4xl">
                             Projects
                         </h3>
@@ -35,16 +35,16 @@ const WebProjects = () => {
 				{PROJECTS.map((project, index) => (
 					<div
 						key={index}
-						className="flex bg-black flex-col items-center justify-center gap-4 max-w-[350px] border-2 border-white p-4 text-center"
+						className="flex bg-black flex-col items-center justify-center gap-4 max-w-[350px] border-2 border-white p-4 text-center hover:bg-white hover:text-black hover:-translate-y-2 transition duration-500 group hover:border-black"
 					>
-						<h5 className="text-lg text-white font-bold">
+						<h5 className="text-lg font-bold">
 							{project.name}
 						</h5>
 						<p>{project.desc}</p>
 						<p className="font-bold">{project.tech}</p>
 						<a
 							href={project.link}
-							className="p-2 rounded-xl border-2 border-white hover:text-black hover:-translate-y-2 hover:bg-white transition duration-500"
+							className="p-2 rounded-xl border-2 border-white hover:text-black hover:-translate-y-2 hover:bg-white transition duration-500 group-hover:border-black"
 						>
 							<svg
 								className="w-6 h-6"
@@ -71,4 +71,4 @@ const WebProjects = () => {
 	);
 };
 
-export default WebProjects;
+export default Projects;

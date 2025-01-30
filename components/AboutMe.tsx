@@ -75,7 +75,7 @@ const AboutMe = () => {
 	 * The Goal is to have
 	 */
 	return (
-		<div className="flex flex-col items-center justify-center h-screen">
+		<div className="flex flex-col items-center justify-center ">
 			<h3 className="text-3xl">About Me</h3>
 			<div className="flex flex-col md:flex-row mt-4 gap-4">
 				{SECTIONS.map((section, index) => (

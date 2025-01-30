@@ -23,7 +23,7 @@ const SECTIONS = [
 		),
 		header: "Software Developer",
 		description:
-			"Experience with Javascript, Typescript, Python, HTML, CSS",
+			"Experience with Javascript, Typescript, C++, Python, HTML, CSS",
 	},
 	{
 		svg: (

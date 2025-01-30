@@ -44,7 +44,7 @@ const Projects = () => {
 						<p className="font-bold">{project.tech}</p>
 						<a
 							href={project.link}
-							className="p-2 rounded-xl border-2 border-white hover:text-black hover:-translate-y-2 hover:bg-white transition duration-500 group-hover:border-black"
+							className="p-2 rounded-xl border-2 border-white hover:text-black hover:-translate-y-2 hover:bg-white transition duration-500 group-hover:border-black hover:shadow-xl"
 						>
 							<svg
 								className="w-6 h-6"

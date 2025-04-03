@@ -70,7 +70,7 @@ const Projects = () => {
 									className="p-2 rounded-xl border-2 border-white hover:text-black hover:-translate-y-2 hover:bg-white transition duration-500 group-hover:border-black hover:shadow-xl"
 								>
 									<svg
-										className="w-6 h-6 text-gray-800 dark:text-white"
+										className="w-6 h-6"
 										aria-hidden="true"
 										xmlns="http://www.w3.org/2000/svg"
 										width="24"

@@ -22,14 +22,19 @@ const PROJECTS = [
 		link: "https://jasmine.starlightvoyager.dev",
 		github: "https://github.com/Fozzyack/Jasmine-clarke",
 	},
+	{
+		name: "Password Manager",
+		desc: "A simple terminal based password manager that stores your passwords using encryption.",
+		tech: "C++",
+		link: "",
+		github: "https://github.com/Fozzyack/password_manager",
+	},
 ];
 
 const Projects = () => {
 	return (
 		<div className="flex flex-col items-center justify-center my-8">
 			<h3 className="text-4xl">Projects</h3>
-			<p className="italic">( or lack thereof )</p>
-			<h3 className="text-3xl">Web Projects</h3>
 			<div className="flex flex-col md:flex-row mt-4">
 				{PROJECTS.map((project, index) => (
 					<div

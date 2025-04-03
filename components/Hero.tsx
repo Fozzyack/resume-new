@@ -13,7 +13,9 @@ const Hero = () => {
     */
     return (
         <div className="flex flex-col h-screen justify-center items-center relative">
-        <TSParticles/>
+        { /** 
+            <TSParticles/>
+            **/}
             <div className="col-span-5 flex flex-col items-center justify-center relative z-10">
                 <h3 className="text-3xl">
                     Hello I&lsquo;m
